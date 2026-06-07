@@ -58,3 +58,7 @@ python3 demo/test_predict.py
 ```
 
 Additional comparison methods can be registered in `pyldl/algorithms/__init__.py`.
+
+## Acknowledgements
+
+Part of the `pyldl` code is adapted from [SpriteMisaka/PyLDL](https://github.com/SpriteMisaka/PyLDL). We thank the authors for making their implementation publicly available.
