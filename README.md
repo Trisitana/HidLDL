@@ -1,8 +1,8 @@
 # HidLDL
 
-Code and datasets for **Towards Better IncomLDL: We Are Unaware of Hidden Labels in Advance**.
+Code for **Towards Better IncomLDL: We Are Unaware of Hidden Labels in Advance**.
 
-This repository contains the implementation, demo scripts, visualization utilities, and benchmark datasets used for hidden-label incomplete label distribution learning.
+This repository contains the implementation, demo scripts, and visualization utilities used for hidden-label incomplete label distribution learning.
 
 ## Structure
 
@@ -10,7 +10,6 @@ This repository contains the implementation, demo scripts, visualization utiliti
 demo/             Example scripts and quick-start notebook
 pyldl/            Core LDL algorithms and utilities
 visualization/    Result calculation and plotting scripts
-dataset/          Benchmark .mat datasets
 ```
 
 ## Installation
@@ -36,6 +35,8 @@ You can change the dataset in `demo/demo.py`:
 ```python
 X, y = load_dataset('SJAFFE')
 ```
+
+Datasets are not included in this repository. Please obtain any required datasets from their official sources and place them under a local `dataset/` directory before running the demos or experiments.
 
 You can also change the missing-label rate:
 
